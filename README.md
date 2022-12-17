@@ -6,6 +6,7 @@
 
 # Methodology
 ![image](https://user-images.githubusercontent.com/21967832/208241391-a36ec4e4-9e72-49ae-aba2-ae71be4dc7c4.png)
+
 The proposed methodology uses the Neural Network approach along with Mediapipe for sign language recognition.
 Dataset Generation – We have selected the ASL alphabet dataset on Kaggle to be used in this project without the signs of “nothing” and “delete”. Initially the whole dataset downloaded in directory is passed to mediapipe for detection of hand landmarks.
 Data Preprocessing - These landmark points are concatenated in numpy arrays which are further appended in an empty list that makes up the whole data to be used for training. The labels are concurrently encoded during this process for each feature , that is for landmarks for each frame.
@@ -21,12 +22,15 @@ Number of images - 89000
 Model Used - LSTM
 Accuracy - 95%
 
+
 # Input/Output
-![image](https://user-images.githubusercontent.com/21967832/208241438-d0aeef30-3268-4918-9b9c-7c68a5bc73ce.png)
-System predicting sign "C" of ASL.
 
 ![image](https://user-images.githubusercontent.com/21967832/208241457-c417a943-fd49-4a9a-8b60-feda944741bf.png)
 System predicting sign "I" of ASL.
+
+![image](https://user-images.githubusercontent.com/21967832/208241438-d0aeef30-3268-4918-9b9c-7c68a5bc73ce.png)
+System predicting sign "C" of ASL.
+
 
 ![image](https://user-images.githubusercontent.com/21967832/208241480-d878e452-147a-4bf0-8c2f-3257a14de5d3.png)
 ![image](https://user-images.githubusercontent.com/21967832/208241482-312b2d93-0ed9-4f69-a983-ecc8f9df6380.png)
@@ -47,5 +51,6 @@ run command - python main.py
 ![image](https://user-images.githubusercontent.com/21967832/208241502-0e5780b7-f05d-459f-ba63-4e6f521e7ff5.png)
 
 ![image](https://user-images.githubusercontent.com/21967832/208241508-0ca0ebe2-149b-4b57-bd52-387015c8304d.png)
+
 System predicting Sign "I" of ASL.
 
