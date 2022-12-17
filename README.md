@@ -33,7 +33,7 @@ System predicting sign "C" of ASL.
 
 
 ![image](https://user-images.githubusercontent.com/21967832/208241480-d878e452-147a-4bf0-8c2f-3257a14de5d3.png)
-![image](https://user-images.githubusercontent.com/21967832/208241482-312b2d93-0ed9-4f69-a983-ecc8f9df6380.png)
+
 
 # Live Link
 The project isn't hosted online but it is in the form of a executable software file developed using tkinter.
